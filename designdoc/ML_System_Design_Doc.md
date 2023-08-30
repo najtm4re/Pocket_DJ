@@ -31,7 +31,7 @@
 
 #### 2.2. Блок-схема решения  
 
-- [Блок-схема](https://github.com/AnnettVsemPrivet/Pocket_DJ/blob/main/Diagram.png) 
+- [Блок-схема](https://github.com/AnnettVsemPrivet/Pocket_DJ/blob/main/designdoc/Diagram.png) 
 
 #### 2.3. Этапы решения задачи
 
