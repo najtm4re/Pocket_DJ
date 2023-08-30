@@ -33,7 +33,7 @@
 
 - [Блок-схема](https://github.com/AnnettVsemPrivet/Pocket_DJ/blob/main/Diagram.png) 
 
-#### 2.3. Этапы решения задачи `Data Scientist`  
+#### 2.3. Этапы решения задачи
 
 *Этап 0 - подготовка данных.*  
 
