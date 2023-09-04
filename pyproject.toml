@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pocket-dj"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pocket_dj"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cookiecutter = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
