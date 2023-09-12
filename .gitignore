@@ -87,6 +87,27 @@ target/
 
 # Data directory
 data/*
+!data/external
+!data/fma_metadata
+!data/fma_small
+!data/interim
+!data/processed
+!data/raw
+
+data/external/*
+data/fma_metadata/*
+data/fma_small/*
+data/interim/*
+data/processed/*
+data/raw/*
+
+!data/.gitkeep
+!data/external/.gitkeep
+!data/fma_metadata/.gitkeep
+!data/fma_small/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
 
 # poetry lock file
 poetry.lock
