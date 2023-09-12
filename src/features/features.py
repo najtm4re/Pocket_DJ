@@ -12,6 +12,7 @@
 # * [MIRtoolbox](https://www.jyu.fi/hum/laitokset/musiikki/en/research/coe/materials/mirtoolbox) (Matlab)
 
 import os
+
 import multiprocessing
 import warnings
 import numpy as np
@@ -135,7 +136,7 @@ def get_features(size):
     all_files = []
     for root, _, files in os.walk(AUDIO_DIR):
         for file in files:
-            if "README" in file or "checksums" in file:
+            if "mp3" not in file:
                 continue
             root_end = root.split("\\")[-1]
             all_files.append(os.path.join(root_end, file))
