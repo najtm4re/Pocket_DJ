@@ -75,9 +75,6 @@ target/
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
 
-# exclude data from source control by default
-/data/
-
 # Mac OS-specific storage files
 .DS_Store
 
@@ -90,25 +87,6 @@ target/
 
 # Data directory
 data/*
-!data/
-
-data/external/*
-!data/external/
-
-data/fma_metadata/*
-!data/fma_metadata/
-
-data/fma_small/*
-!data/fma_small/
-
-data/interim/*
-!data/interim/
-
-data/processed/*
-!data/processed/
-
-data/raw/*
-!data/raw/
 
 # poetry lock file
 poetry.lock
