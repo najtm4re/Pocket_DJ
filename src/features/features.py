@@ -129,7 +129,7 @@ def compute_features(track_id):
 
 
 def get_features(size):
-    tracks = data_utils.load(META_DIR + "/tracks.csv")
+    tracks = data_utils.load(META_DIR + "/fma_metadata/tracks.csv")
     tracks = tracks[tracks["set", "subset"] <= size]
     features = pd.DataFrame(index=tracks.index, columns=get_columns(), dtype=np.float32)
 
@@ -152,4 +152,4 @@ def save(features, ndigits):
     # features = features.sort_index(axis=0)
     # features = features.sort_index(axis=1)
 
-    features.to_csv("data/interim/features.csv", float_format="%.{}e".format(ndigits))
+    features.to_csv(META_DIR + "/interim/features.csv", float_format="%.{}e".format(ndigits))
