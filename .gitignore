@@ -111,3 +111,6 @@ data/raw/*
 
 # poetry lock file
 poetry.lock
+
+# cboost logs
+catboost_info
