@@ -87,7 +87,7 @@ target/
 .mypy_cache/
 
 # Data directory
-data/*
+#data/*
 !data/external
 !data/fma_metadata
 !data/fma_small
@@ -98,7 +98,7 @@ data/*
 data/external/*
 data/fma_metadata/*
 data/fma_small/*
-data/interim/*
+#data/interim/*
 data/processed/*
 data/raw/*
 
