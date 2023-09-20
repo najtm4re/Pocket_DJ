@@ -4,6 +4,7 @@ __pycache__/
 
 # C extensions
 *.so
+!.dvc
 
 # Distribution / packaging
 .Python
@@ -100,6 +101,8 @@ data/fma_small/*
 data/interim/*
 data/processed/*
 data/raw/*
+
+#!data/interim/features.csv
 
 !data/.gitkeep
 !data/external/.gitkeep
