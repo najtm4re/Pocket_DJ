@@ -1,2 +1,0 @@
-['remote "local_storage"']
-    url = ../data/dvc_local_storage
