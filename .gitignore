@@ -96,7 +96,7 @@ target/
 !data/raw
 
 data/external/*
-data/fma_metadata/*
+#data/fma_metadata/*
 data/fma_small/*
 #data/interim/*
 data/dvc_local_storage/*
