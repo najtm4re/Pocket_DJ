@@ -4,9 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-packages = [{include = "pocket_dj"}]
+# запускайте только если есть локально папка pocket_dj внутри проекта:
+#packages = [{include = "pocket_dj"}]
 
 [tool.poetry.dependencies]
+# надо выбрать torch!
+# windows:
+torch = { url = "https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp39-cp39-win_amd64.whl"}
+# linux:
+torch = "^2.0.0"
 python = "^3.9"
 librosa = "^0.10.1"
 pandas = "^2.1.0"
@@ -17,10 +23,10 @@ pydot = "^1.4.2"
 tqdm = "^4.66.1"
 catboost = "^1.2.1"
 llvmlite= "^0.40.1"
-torch = { url = "https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp39-cp39-win_amd64.whl"}
 xgboost = "^2.0.0"
 lightgbm = "^4.1.0"
 dvc = "^3.22.0"
+dvc-gdrive = "^2.20.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.25.2"

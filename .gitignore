@@ -4,6 +4,7 @@ __pycache__/
 
 # C extensions
 *.so
+!.dvc
 
 # Distribution / packaging
 .Python
@@ -98,9 +99,11 @@ data/external/*
 data/fma_metadata/*
 data/fma_small/*
 data/interim/*
+data/dvc_local_storage/*
 data/processed/*
 data/raw/*
 
+# keep dirs
 !data/.gitkeep
 !data/external/.gitkeep
 !data/fma_metadata/.gitkeep
@@ -108,6 +111,10 @@ data/raw/*
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 !data/raw/.gitkeep
+ 
+# specific files
+!data/fma_metadata/tracks.csv.dvc
+!data/interim/features.csv.dvc
 
 # poetry lock file
 poetry.lock
